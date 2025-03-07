@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+h1{
+    text-align: center;
+font-weight:lighter;
+}
+span{
+    color: aqua;
+}
+
+input{
+    /* background-color: aqua; */
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.226);
+outline: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+form button{
+    margin-top: 30px;
+    width: 80px;
+    height: 35px;
+    background-color: rgb(46, 46, 224);
+    color: aliceblue;
+border-radius: 5px;
+}
+
+table{
+    border-collapse: collapse;
+width: 100%;
+border-top: none;
+border-inline-end: none;
+border-left: none;
+border: none;
+}
+
+th{
+    /* background-color: aqua; */
+    border-bottom: 3px solid black
+}
+
+tbody tr{
+    margin-top: 3px;
+    background-color: rgb(214, 240, 240);
+}
+
+.delete{
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    color: aliceblue;
+    border-bottom: 2px solid gray;
+}
